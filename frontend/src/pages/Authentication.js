@@ -30,5 +30,11 @@ export const actions = async ({ request, params }) => {
   if(!response.ok){
     throw json({message:'Could not send request'},{status:500})
   }
+
+  const resData = await response.json();
+  const token = resData.token;
+
+  localStorage.setItem('token',token)
+
   return redirect('/');
 };
