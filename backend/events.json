@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://wallpapers.com/images/featured/awesome-z7e0w3s4gu017ids.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"A new event","image":"https://wallpapers.com/images/featured/awesome-z7e0w3s4gu017ids.jpg","date":"2022-10-01","description":"Some awesome event!","id":"2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"}],"users":[{"email":"shafiquddin2k@gmail.com","password":"$2a$12$8d8qK/YLRhEDds6FSacCz.iDClQ8Y.GWL2mn0qGuHJzaPJYIyGOSy","id":"942c2a86-29a0-4c68-869c-b7cc68c0c754"}]}
