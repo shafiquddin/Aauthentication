@@ -15,7 +15,7 @@ import { action as manipulateEventAction } from './components/EventForm';
 import NewsletterPage, { action as newsletterAction } from './pages/Newsletter';
 import AuthenticationPage,{actions as authActions} from './pages/Authentication';
 import { action as logoutAction } from './pages/Logout';
-import { tokenLoader } from './pages/Logout';
+import { tokenLoader } from './util/auth';
 import { checkAuthLoader } from './pages/Logout'
 
 const router = createBrowserRouter([

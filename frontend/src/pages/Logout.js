@@ -3,11 +3,8 @@ import { getAuthToken } from "../util/auth";
 
 export function action () {
     localStorage.removeItem('token');
+    localStorage.removeItem('expiration');
     return redirect('/');
-}
-
-export const tokenLoader = () => {
-    return getAuthToken();
 }
 
 export const checkAuthLoader = () => {
