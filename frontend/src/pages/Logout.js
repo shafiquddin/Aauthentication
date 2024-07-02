@@ -9,3 +9,13 @@ export function action () {
 export const tokenLoader = () => {
     return getAuthToken();
 }
+
+export const checkAuthLoader = () => {
+    const token = getAuthToken();
+
+    if(!token){
+        return redirect('/auth');
+    }
+
+    return null;
+}
